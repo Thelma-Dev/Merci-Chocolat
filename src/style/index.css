@@ -179,3 +179,148 @@ button {
 .order:hover {
     background-color: var(--app-pink-hover);
 }
+
+/* -------------------------------- */
+/* Gallery                          */
+/* -------------------------------- */
+
+.portfolio {
+    width: 100%;
+    height: 100%;
+    padding: 10px 0px;
+}
+
+section .subheading {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+  
+  
+section .subheading h3 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 900;
+    color: var(--app-blue);
+}
+
+section .subheading p {
+    text-align: center;
+    font-size: 18px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: var(--text-color);
+    width: 480px;
+    margin-inline: auto;
+}
+
+.gallery {
+    margin-top: 20px;
+    height: auto;
+    padding: 10px;
+    display: grid;
+    place-items: center;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.gallery-image {
+    width: 270px;
+    height: 300px;
+    margin: 10px auto;
+    background-color: var(--app-dark-bg);
+    border-radius: var(--app-border-radius);
+    color: var(--app-dark-bg);
+    transition: all 0.25s ease-in-out;
+}
+
+.gallery-image:hover{
+    transform: translateY(-10px);
+}
+
+.gallery img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    margin-inline: auto;
+}
+
+/* -------------------------------- */
+/*           Footer                 */
+/* -------------------------------- */
+
+footer {
+    width: 100%;
+    height: 210px;
+    overflow: hidden;
+    border: none;
+    margin-top: 60px;
+    padding: 10px;
+    background-color: #1a1c27;
+    bottom: 0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.logo {
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    margin-inline: auto;
+}
+
+.social-icons {
+    height: 100px;
+    margin-inline: auto;
+    padding: 10px;
+    border: none;
+}
+  
+.social-icons ul {
+    list-style: none;
+    text-align: center;
+}
+  
+.social-icons ul li {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 5 px;
+}
+  
+.social-icons ul li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    color: #fff;
+    border: 1px solid rgb(255 255 255 / 0.15);
+    border-radius: 5px;
+}
+    
+.fa-brands:hover  {
+    color: #05583d;
+    transition: background-color 0.25s ease-in-out;
+}
+  
+p.copyright {
+    font-size: 14px;
+    color:  #adadad;
+    opacity: 0.4;
+    font-weight: 400; 
+    text-align: center;
+    margin-top: 15px;
+}
+
