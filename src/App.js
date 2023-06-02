@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import'./style/index.css';
+import bannerImage from './media/banner.jpg';
+import Header from './components/Header';
+import Banner from './components/Banner';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  let pageTitle = 'Merci';
+  let businessName = 'Merci Chocolat';
+  let businessSlang = 'A bite is all you need to leave you wanting more';
+  let isOrder = true;
+
+  
+    return (
+      <>
+        <Header
+          title = {pageTitle}
+        />
+        <main>
+          <div className="container">
+          <Banner
+          businessName = {businessName}
+          businessSlang = {businessSlang}
+          banner = {bannerImage}
+          isOrder = {isOrder}
+          />
+          </div>
+        </main>
+      </>
+      
+    );
 }
 
 export default App;

@@ -1,0 +1,181 @@
+@import './reset.css';
+
+:root {
+    --app-dark-blue:#1a1d28;
+    --app-pink:#a70649;
+    --app-pink-hover:#940641;
+    --app-light-bg: rgba(221, 221, 221, 0.5);
+    --text-color: rgb(0, 0, 0, 0.8);;
+}
+
+body {
+    background-color: #f2eeed;
+    height: 100vh;
+    color: var(--text-color);
+}
+
+
+html {
+    scroll-behavior: smooth;
+    transition: all 0.25s ease-in-out;
+}
+
+.container {
+    width: min(100% - 30px, 1200px);
+    margin-inline: auto;
+}
+
+/* -------------------------------- */
+/* Header                           */
+/* -------------------------------- */
+
+
+header {
+    width: 100%;
+    height: 66px;
+    overflow: hidden;
+    background-color: transparent;
+    position: fixed;
+    z-index: 333;
+    padding: 8px 0px;
+    margin-inline: auto;
+}
+
+.flexbox {
+    display: flex;
+}
+
+.title {
+    width: 30%;
+    height: 46px;
+}
+
+
+.title h1{
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+nav {
+    width: 70%;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    line-height: 50px;
+    cursor: default;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 400;
+    text-decoration: none;
+    letter-spacing: 0.2px;
+    cursor: pointer;
+    transition: all 0.25s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: var(--text-color);
+}
+
+nav ul li + li {
+    margin-left: 30px;
+}
+
+
+/* -------------------------------- */
+/* Section-Banner                   */
+/* -------------------------------- */
+.banner {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+.banner img {
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    background-position: center center;
+    position: relative;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+  
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 31.3%;
+    z-index: 999;
+    width: 500px;
+    height: 400px;
+    transform: translate( -50%, -50%);
+    color: var(--text-color);
+    margin: auto 10px;
+    transition: all 0.3s ease-in-out;
+}
+  
+.hero-text h2 {
+    margin-top: 20px;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.hero-text p {
+    height: auto;
+    padding: 3px 0px;
+    margin-top:  10px;
+    font-size: 20px;
+}
+  
+
+/* -------------------------------- */
+/* Buttons                          */
+/* -------------------------------- */
+
+.hero-text button {
+    margin-top: 40px;
+}
+
+button {
+    width: 150px;
+    height: 46px;
+    color: #fff;
+    font-size:16px;
+    border-radius: 25px;
+    transition: all 0.25s ease-in-out;
+    border: 1px solid transparent;
+}
+
+.order {
+    background-color: var(--app-pink);
+}
+
+.contact {
+    background-color: transparent;
+    color: var(--app-pink);
+    border: 1px solid var(--app-pink);
+}
+
+.contact:hover {
+    background-color: var(--app-pink);
+    color: #fff;
+}
+
+.order:hover {
+    background-color: var(--app-pink-hover);
+}
