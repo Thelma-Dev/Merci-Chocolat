@@ -8,7 +8,7 @@ function Header(props) {
                     <ul>
                         <li><a href="#!">About Us</a></li>
                         <li><a href="#!">Gallery</a></li>
-                        <li><a href="#!">Book Us</a></li>
+                        <li><a href="#!">Cart</a></li>
                         <li><a href="#!">Contact</a></li>
                     </ul>
                 </nav>

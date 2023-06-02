@@ -21,8 +21,9 @@ function App() {
   let instagramLogo = <i className="fa-brands fa-instagram"></i>;
   let twitterLogo = <i className="fa-brands fa-twitter"></i>;
   let developer = 'Thelma Osifo';
-  let state = "order";
+  let state = true;
 
+  
   const galleryImages = [
     {
       //Photo by Elli from Pexels: https://www.pexels.com/photo/milk-chocolates-1854664/
@@ -63,7 +64,7 @@ function App() {
           businessName = {businessName}
           businessSlang = {businessSlang}
           banner = {bannerImage}
-          state = {state}
+          primary = {state}
           />
           </div>
           <Gallery

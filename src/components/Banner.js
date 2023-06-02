@@ -2,14 +2,14 @@ import Button from "./Button"
 
 function Banner(props) {
   return (
-    <section id="home">
+    <section className="page-banner">
         <div className="banner">
             <div className="hero-text">
                 <h2>{props.businessName}</h2>
                 <p>{props.businessSlang}</p>
-                <Button state = {props.state}
+                <Button primary = {props.primary}
                 />
-                <Button state = {null}
+                <Button primary = {!props.primary}
                 />
             </div>
             <div className="banner-image">
@@ -17,7 +17,7 @@ function Banner(props) {
             </div>
         </div>
     </section>
-  )
+  );
 }
 
 export default Banner
