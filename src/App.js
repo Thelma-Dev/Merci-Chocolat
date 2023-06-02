@@ -1,5 +1,5 @@
 import'./style/index.css';
-import bannerImage from './media/banner.jpg';
+import bannerImage from './media/banner.png';
 import companyLogo from './media/companyLogo.png';
 import galleryImage1 from './media/gallery-image1.jpg';
 import galleryImage2 from './media/gallery-image2.jpg';
