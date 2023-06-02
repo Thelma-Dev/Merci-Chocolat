@@ -7,7 +7,7 @@ function Footer(props) {
             <div className="container footer">
                 <div className="logo">
                     <Image 
-                    url = {props.url}
+                    src = {props.url}
                     alt = {props.altText}
                     />
                 </div>
@@ -24,4 +24,4 @@ function Footer(props) {
     )
 }
 
-export default Footer
+export default Footer;

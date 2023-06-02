@@ -7,11 +7,13 @@ function Banner(props) {
             <div className="hero-text">
                 <h2>{props.businessName}</h2>
                 <p>{props.businessSlang}</p>
-                <Button isOrder = {props.isOrder}
+                <Button state = {props.state}
+                />
+                <Button state = {null}
                 />
             </div>
             <div className="banner-image">
-                <img src={props.banner} alt="Banner"/>
+                <img src={props.banner} alt={props.bannerAltText}/>
             </div>
         </div>
     </section>

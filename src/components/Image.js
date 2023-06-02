@@ -1,7 +1,7 @@
 
 function Image(props) {
     return (
-      <img src={props.url} alt={props.altText} />
+      <img src={props.src} alt={props.altText} />
     )
   }
   
