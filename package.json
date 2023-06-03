@@ -1,7 +1,7 @@
 {
   "name": "components",
   "version": "0.1.0",
-  "homepage": "https://thelma-dev.github.io/react-gh-pages",
+  "homepage": "https://thelma-dev.github.io/Merci-Chocolat",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
