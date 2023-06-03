@@ -1,6 +1,6 @@
 ## Merci Chocolat
 
-This project involves building a web page with React making use of components and props.
+A basic web page consisting of a header, banner, gallery section and a footer using React (components and props).
 
 
 ### Demo
