@@ -107,26 +107,27 @@ nav ul li + li {
 /* -------------------------------- */
 .page-banner {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     border: none;
-    padding: 0px 0px 10px 0px;
 }
 
 .banner {
-    display: grid;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     height: 100%;
+
 }
 
 .banner-image {
-    background-repeat: no-repeat;
-    background-color: #f2eeed;
-    background-image: linear-gradient(128deg, #f2eeed 0%, #ede8ee 74%);
-    position: relative;
+    width: 65%;
     height: 100%;
+    display: grid;
+    place-items: center;
 }
 
 .banner img {
+    margin-top: 2rem;
     max-height: 100%;
     max-width: 100%;
 }
@@ -134,13 +135,8 @@ nav ul li + li {
   
 .hero-text {
     text-align: left;
-    position: absolute;
-    top: 50%;
-    left: 22.5%;
-    z-index: 999;
     width: 500px;
     height: 400px;
-    transform: translate( -50%, -50%);
     color: var(--text-color);
     margin: auto 10px;
     transition: all 0.3s ease-in-out;
@@ -205,7 +201,7 @@ button {
 /* -------------------------------- */
 
 .portfolio {
-    margin-top: 7rem;
+    margin-top: 4rem;
     width: 100%;
     height: 100%;
     padding: 10px 0px;
@@ -255,11 +251,11 @@ section .subheading p {
     background-color: var(--app-dark-bg);
     border-radius: var(--app-border-radius);
     color: var(--app-dark-bg);
-    transition: all 0.25s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
 
 .gallery-image:hover{
-    transform: translateY(-10px);
+    transform: translateY(-8px);
 }
 
 .gallery img {
