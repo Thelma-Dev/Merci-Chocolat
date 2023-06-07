@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Merci-Chocolat/static/css/main.19248ae2.css",
-    "main.js": "/Merci-Chocolat/static/js/main.8ef54e02.js",
+    "main.css": "/Merci-Chocolat/static/css/main.0679a528.css",
+    "main.js": "/Merci-Chocolat/static/js/main.ad6cfd38.js",
     "static/media/gallery-image3.jpg": "/Merci-Chocolat/static/media/gallery-image3.07b6321dc5ee80f12bad.jpg",
     "static/media/gallery-image2.jpg": "/Merci-Chocolat/static/media/gallery-image2.482c32bbf59fbe4d0a91.jpg",
-    "static/media/banner.png": "/Merci-Chocolat/static/media/banner.d921d0204f9389fbf167.png",
+    "static/media/banner-copy.png": "/Merci-Chocolat/static/media/banner-copy.f824c6714bd4a3e4cfb8.png",
     "static/media/gallery-image4.jpg": "/Merci-Chocolat/static/media/gallery-image4.03e405748150dcde1d5c.jpg",
     "static/media/gallery-image1.jpg": "/Merci-Chocolat/static/media/gallery-image1.98e596115ffb4b13e98c.jpg",
     "static/media/companyLogo.png": "/Merci-Chocolat/static/media/companyLogo.dabcf7e8636f57d129c5.png",
     "index.html": "/Merci-Chocolat/index.html",
-    "main.19248ae2.css.map": "/Merci-Chocolat/static/css/main.19248ae2.css.map",
-    "main.8ef54e02.js.map": "/Merci-Chocolat/static/js/main.8ef54e02.js.map"
+    "main.0679a528.css.map": "/Merci-Chocolat/static/css/main.0679a528.css.map",
+    "main.ad6cfd38.js.map": "/Merci-Chocolat/static/js/main.ad6cfd38.js.map"
   },
   "entrypoints": [
-    "static/css/main.19248ae2.css",
-    "static/js/main.8ef54e02.js"
+    "static/css/main.0679a528.css",
+    "static/js/main.ad6cfd38.js"
   ]
 }
