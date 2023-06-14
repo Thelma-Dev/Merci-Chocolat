@@ -5,4 +5,4 @@ A basic web page consisting of a header, banner, gallery section and a footer us
 
 ### Demo
 
-Click [here](https://thelma-dev.github.io/Merci-Chocolat/) to view demo.
+Click [here](https://thelma-dev.github.io/merci-chocolat/) to view demo.
